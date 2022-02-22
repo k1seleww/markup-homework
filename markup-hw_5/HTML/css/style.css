@@ -1,0 +1,151 @@
+*,
+*::before,
+::after {
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.page-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.box{
+    background-color: #e4e418;
+    min-height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.main{
+    flex: 1 0 auto;
+    display: flex;
+    text-align: center;
+
+}
+
+
+.aside1{
+    background-color: #c94dc9;
+    width: 210px;
+    order: -1;
+    padding: 20px;
+}
+
+.aside2{
+    background-color: #8dcde2;
+    width: 210px;
+    padding: 20px;
+}
+
+.footer{
+    background-color: #63882a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    height: 4vh;
+}
+
+.h1{
+    text-transform: uppercase;
+}
+
+.imgg{
+    width: 30%;
+    border-radius: 100%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.text{
+    padding: 20px;
+    max-width: calc(100% - 400px);
+}
+
+.content{
+    border: 1px solid #100707;
+    border-radius: 5%;
+    margin: 5px;
+    padding: 10px 5px 5px 5px;
+    width: 25%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content a{
+    text-decoration: none;
+    color: rgb(0, 187, 255);
+    background-color: #eb0800;
+    border-radius: 20%;
+    padding: 10px 10px;
+}
+
+.href:hover{
+    color: #3aeb3a;
+    box-shadow: 5px 5px 5px 5px #d00606;
+}
+
+.boxic{
+    margin: 15%;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 20px 20px 0 0 ;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.item{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item:first-child{
+    background-color: #c04848;
+    order: -5;
+    width: 50%;
+    border-radius: 18px 0 0 0 ;
+}
+
+.item:nth-child(2){
+    background-color: #0000ff87;
+    width: 33%;
+    order: -2;
+}
+
+.item:nth-child(3){
+    background-color: #3e2a48;
+    width: 33%;
+    order: -3;
+}
+
+.item:nth-child(4){
+    background-color: #165f10;
+    width: 34%;
+    order: -1;
+}
+
+.item:nth-child(5){
+    background-color: #d09031;
+    width: 50%;
+    border-radius: 0 17px 0 0 ;
+    order: -4;
+}

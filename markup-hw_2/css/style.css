@@ -1,0 +1,23 @@
+blockquote{
+    color:green;
+}
+
+a[href^='https://']{color:red;}
+
+.list>li:last-child{background-color: #008000;}
+
+ul~p{font-size: 26px;}
+
+body{
+    background-color: #008000;
+}
+.bg-box {
+    width: 1000px;
+    height: 600px;
+    background: url("../img/lamp-png-0.png") top left / 30px 30px repeat-x,
+      url("../img/pole-zelen-trava-dom-derevya.jpg") center center / 600px 400px no-repeat,
+      url("../img/grass-png-images-pictures-transparent-28.png") bottom right / 200px 100px repeat-x,
+      url("../img/photo_2022-01-31_18-06-49.jpg") top right / 30px 30px repeat-y,
+      url("../img/Ёжик.png") top left / 30px 30px repeat-y;
+    background-color: green;
+  }
